@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
-    --main-background: #e4e3e3;
-    --secondary-background: #d8d8d8;
-    --shadow: #c8c8c8;
-    --content: #e0dede;
+    --main-background: #ccccccf8;
+    --secondary-background: #d3d2d2;
+    --content: #d8d8d8;
+    --main-text: #0030ce;
+    --secondary-text: #0028ad;
+    --content-text: #00196d;
+    --main-border: #003cff;
+    --secondary-border: #0034e0;
 }
 
 body {
@@ -26,20 +30,30 @@ body {
     display: flex;
     background-color: var(--secondary-background);
     width: 80%;
-    min-height: 400px;
+    min-height: 100px;
     border-radius: 20px;
-    box-shadow: 10px 10px var(--shadow);
     display: flex;
-    padding: 25px;
+    padding: 30px;
     gap: 25px;
+    border: 3px solid var(--main-border);
+    transition: all 0.5s ease;
 }
 
-.personal-info div {
+.personal-info:hover {
+    transform: scale(1.01);
+}
+
+.personal-info > div {
     background-color: var(--content);
-    min-height: 400px;
     flex: 1;
     border-radius: 10px;
-    padding: 0 0 30px 30px;
+    padding: 30px 30px 50px 50px;
+    border: 3px solid var(--secondary-border);
+    transition: all 0.25s ease;
+}
+
+.personal-info > div:hover {
+    transform: scale(1.01);
 }
 
 .personal-info .about {
@@ -51,5 +65,111 @@ body {
 }
 
 .about h1 {
-    
+    color: var(--main-text);
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 0;
+}
+
+.about h2 {
+    color: var(--secondary-text);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 0;
+    margin-top: 60px;
+}
+
+.about-detail {
+    color: var(--content-text);
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.about p {
+    margin: 10px 0;
+}
+
+.contact {
+    color: var(--content-text);
+}
+
+.contact h1 {
+    color: var(--main-text);
+    font-size: 40px;
+}
+
+.contact span, .contact p {
+    font-size: 20px;
+}
+
+.contact span {
+    border: 2px solid var(--main-border);
+    color: var(--secondary-text);
+    padding: 2.5px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.contact i {
+    color: var(--content-text);
+    font-size: 40px;
+    margin-right: 10px;
+    transition: all 0.25s ease;
+}
+
+.contact i:hover {
+    transform: scale(1.1);
+    color: var(--secondary-text);
+}
+
+.contact-page {
+    margin-top: 70px;
+}
+
+.contact-page h1 {
+    line-height: 0;
+    margin-bottom: 30px;
+}
+
+.personal-info .skills {
+    flex: 2 1 0%;
+}
+
+.education h1, .skills h1 {
+    line-height: 0;
+    color: var(--main-text);
+    font-size: 40px;
+}
+
+.education span {
+    line-height: 45px;
+}
+
+.university {
+    background-color: var(--main-border);
+    border: 2px solid var(--main-border);
+    color: var(--content);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.degree {
+    border: 2px solid var(--main-border);
+    color: var(--main-border);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.major {
+    background-color: var(--main-text);
+    border: 2px solid var(--main-border);
+    color: var(--content);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
 }
