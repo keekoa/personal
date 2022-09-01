@@ -24,6 +24,7 @@ body {
     flex-direction: column;
     align-items: center;
     row-gap: 50px;
+    margin-bottom: 75px;
 }
 
 .personal-info {
@@ -47,7 +48,7 @@ body {
     background-color: var(--content);
     flex: 1;
     border-radius: 10px;
-    padding: 30px 30px 50px 50px;
+    padding: 30px 50px;
     border: 3px solid var(--secondary-border);
     transition: all 0.25s ease;
 }
@@ -212,4 +213,61 @@ body {
     color: var(--content-text);
     font-size: 20px;
     font-weight: 500;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.skills > div {
+    background-color: var(--content);
+    border-radius: 10px;
+    border: 3px solid var(--secondary-border);
+    transition: all 0.25s ease;
+    min-height: 70px;
+    padding: 10px 20px 20px 20px;
+}
+
+.skills h2 {
+    line-height: 0;
+    color: var(--secondary-text);
+}
+
+.coding, .framework {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-list div{
+    border-radius: 5px;
+    background-color: var(--main-border);
+    color: var(--content);
+    padding: 2.5px 5px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.lang-list {
+    color: var(--content-text);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.lang-list i {
+    color: var(--main-border);
+}
+
+.project-header {
+    
 }
