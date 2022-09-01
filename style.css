@@ -1,11 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
-    
+    --main-background: #e4e3e3;
+    --secondary-background: #d8d8d8;
+    --shadow: #c8c8c8;
+    --content: #e0dede;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: 'M PLUS 1 Code', sans-serif;
+    background-color: var(--main-background);
+}
+
+.container {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.personal-info {
+    display: flex;
+    background-color: var(--secondary-background);
+    width: 80%;
+    min-height: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px var(--shadow);
+    display: flex;
+    padding: 25px;
+    gap: 25px;
+}
+
+.personal-info div {
+    background-color: var(--content);
+    min-height: 400px;
+    flex: 1;
+    border-radius: 10px;
+    padding: 0 0 30px 30px;
+}
+
+.personal-info .about {
+    flex: 2 1 0%;
+}
+
+.about {
+    
+}
+
+.about h1 {
+    
 }
