@@ -38,6 +38,11 @@ body {
     transition: all 0.1s ease-in-out;
 }
 
+.dark-mode i {
+    pointer-events: none;
+    user-select: none;
+}
+
 .dark-mode:hover {
     cursor: pointer;
     transform: scale(1.05);
