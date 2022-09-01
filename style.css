@@ -2,8 +2,8 @@
 
 :root {
     --main-background: #ccccccf8;
-    --secondary-background: #d3d2d2;
-    --content: #d8d8d8;
+    --secondary-background: #ccccccfa;
+    --content: #cccccc;
     --main-text: #0030ce;
     --secondary-text: #0028ad;
     --content-text: #00196d;
@@ -50,6 +50,7 @@ body {
     padding: 30px 50px;
     border: 3px solid var(--secondary-border);
     transition: all 0.25s ease;
+    
 }
 
 .personal-info > div:hover {
