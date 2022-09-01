@@ -33,7 +33,6 @@ body {
     width: 80%;
     min-height: 100px;
     border-radius: 20px;
-    display: flex;
     padding: 30px;
     gap: 25px;
     border: 3px solid var(--main-border);
@@ -88,6 +87,7 @@ body {
 
 .about p {
     margin: 10px 0;
+    font-weight: 500;
 }
 
 .contact {
@@ -101,6 +101,7 @@ body {
 
 .contact span, .contact p {
     font-size: 20px;
+    font-weight: 500;
 }
 
 .contact span {
@@ -112,7 +113,7 @@ body {
 }
 
 .contact i {
-    color: var(--content-text);
+    color: var(--main-border);
     font-size: 40px;
     margin-right: 10px;
     transition: all 0.25s ease;
@@ -268,6 +269,75 @@ body {
     color: var(--main-border);
 }
 
+.projects {
+    background-color: var(--secondary-background);
+    width: 80%;
+    min-height: 100px;
+    border-radius: 20px;
+    padding: 30px;
+    gap: 25px;
+    border: 3px solid var(--main-border);
+    transition: all 0.5s ease;
+}
+
+.projects:hover {
+    transform: scale(1.01);
+}
+
 .project-header {
+    border-radius: 10px;
+    border: 3px solid var(--main-border);
+    background-color: var(--secondary-border);
+    padding: 10px;
+    height: fit-content;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--content);
+}
+
+.project-list {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
     
+}
+
+.project {
+    background-color: var(--content);
+    border: 3px solid var(--secondary-border);
+    border-radius: 10px;
+    min-height: 80px;
+    padding: 30px 30px 50px 30px;
+    position: relative;
+}
+
+.project h1 {
+    margin-bottom: 40px;
+    color: var(--main-text);
+    line-height: 0;
+}
+
+.project p {
+    color: var(--content-text);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.project a {
+    border: 3px solid var(--main-border);
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: var(--main-text);
+    font-size: 18px;
+    font-weight: 500;
+    transition: all .25s ease-in-out;
+}
+
+.project a:hover {
+    background-color: var(--main-text);
+    color: var(--content);
 }
