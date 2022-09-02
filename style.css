@@ -16,6 +16,7 @@ body {
     padding: 0;
     font-family: 'M PLUS 1 Code', sans-serif;
     background-color: var(--main-background);
+    transition: all 1s ease;
 }
 
 .container {
@@ -71,7 +72,6 @@ body {
     padding: 30px 50px;
     border: 3px solid var(--secondary-border);
     transition: all 0.25s ease;
-    
 }
 
 .personal-info > div:hover {
@@ -80,10 +80,6 @@ body {
 
 .personal-info .about {
     flex: 2 1 0%;
-}
-
-.about {
-    
 }
 
 .about h1 {
@@ -344,6 +340,7 @@ body {
     margin-bottom: 40px;
     color: var(--main-text);
     line-height: 0;
+    display: inline;
 }
 
 .project p {
@@ -368,3 +365,1351 @@ body {
     background-color: var(--main-text);
     color: var(--content);
 }
+
+/* media queries */
+
+@media (max-width: 1800px) {
+    .container {
+        margin-top: 50px;
+        row-gap: 50px;
+        margin-bottom: 75px;
+    }
+    
+    .dark-mode {
+        padding: 5px 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    .dark-mode:hover {
+        transform: scale(1.05);
+    }
+    
+    .personal-info {
+        width: 80%;
+        min-height: 100px;
+        padding: 30px;
+        gap: 25px;
+    }
+    
+    .personal-info:hover {
+        transform: scale(1.01);
+    }
+    
+    .personal-info > div {
+        padding: 30px 50px;
+    }
+    
+    .personal-info > div:hover {
+        transform: scale(1.01);
+    }
+    
+    .about h1 {
+        font-weight: 500;
+        font-size: 40px;
+    }
+    
+    .about h2 {
+        font-weight: 500;
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    
+    .about-detail {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    
+    .about p {
+        margin: 10px 0;
+        font-weight: 500;
+    }
+    
+    .contact h1 {
+        font-size: 30px;
+    }
+    
+    .contact span, .contact p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .contact span {
+        padding: 2.5px 5px;
+        font-weight: 500;
+    }
+    
+    .contact i {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    
+    .contact i:hover {
+        transform: scale(1.1);
+    }
+    
+    .contact-page {
+        margin-top: 70px;
+    }
+    
+    .contact-page h1 {
+        margin-bottom: 30px;
+    }
+    
+    .education h1, .skills h1 {
+        font-size: 30px;
+    }
+    
+    .university {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .degree {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .major {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .year {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+    .gpa-header {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    .gpa {
+        font-weight: 700;
+        font-size: 18px;
+        padding: 5px 10px 5px 0;
+    }
+    
+    .education h2 {
+        font-size: 28px;
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+    
+    .education p {
+        font-size: 16.5px;
+        font-weight: 500;
+    }
+    
+    .skills {
+        gap: 25px;
+    }
+    
+    .skills > div {
+        min-height: 50px;
+        padding: 10px 20px 20px 20px;
+    }
+
+    .skills h2 {
+        font-size: 20px;
+    }
+    
+    .skill-list {
+        gap: 10px;
+    }
+    
+    .skill-list div{
+        padding: 2.5px 5px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .lang-list {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .projects {
+        width: 80%;
+        min-height: 100px;
+        padding: 30px;
+        gap: 25px;
+    }
+    
+    .projects:hover {
+        transform: scale(1.01);
+    }
+    
+    .project-header {
+        padding: 10px;
+        height: fit-content;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    
+    .project-list {
+        margin-top: 25px;
+        gap: 25px;
+    }
+    
+    .project {
+        min-height: 80px;
+        padding: 30px 30px 50px 30px;
+    }
+    
+    .project:hover {
+        transform: scale(1.01);
+    }
+    
+    .project h1 {
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+    
+    .project p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    
+    .project a {
+        padding: 5px 10px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 1500px) {
+    .container {
+        margin-top: 50px;
+        row-gap: 50px;
+        margin-bottom: 75px;
+    }
+    
+    .dark-mode {
+        padding: 5px 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    .dark-mode:hover {
+        transform: scale(1.05);
+    }
+    
+    .personal-info {
+        width: 80%;
+        min-height: 100px;
+        padding: 25px;
+        gap: 25px;
+    }
+    
+    .personal-info:hover {
+        transform: scale(1.01);
+    }
+    
+    .personal-info > div {
+        padding: 25px 40px;
+    }
+    
+    .personal-info > div:hover {
+        transform: scale(1.01);
+    }
+    
+    .about h1 {
+        font-weight: 500;
+        font-size: 35px;
+    }
+    
+    .about h2 {
+        font-weight: 500;
+        font-size: 22px;
+        margin-top: 40px;
+    }
+    
+    .about-detail {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    
+    .about p {
+        margin: 10px 0;
+        font-weight: 500;
+    }
+    
+    .contact h1 {
+        font-size: 30px;
+    }
+    
+    .contact span, .contact p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .contact span {
+        padding: 2.5px 5px;
+        font-weight: 500;
+    }
+    
+    .contact i {
+        font-size: 28px;
+        margin-right: 5px;
+    }
+    
+    .contact i:hover {
+        transform: scale(1.1);
+    }
+    
+    .contact-page {
+        margin-top: 50px;
+    }
+    
+    .contact-page h1 {
+        margin-bottom: 30px;
+    }
+    
+    .education h1, .skills h1 {
+        font-size: 30px;
+    }
+    
+    .university {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    .degree {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    .major {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    .year {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .gpa-header {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    .gpa {
+        font-weight: 700;
+        font-size: 20px;
+        padding: 5px 10px 5px 0;
+    }
+    
+    .education h2 {
+        font-size: 26px;
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+    
+    .education p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .skills {
+        gap: 20px;
+    }
+    
+    .skills > div {
+        min-height: 50px;
+        padding: 10px 20px 20px 20px;
+    }
+
+    .skills h2 {
+        font-size: 18px;
+    }
+    
+    .skill-list {
+        gap: 10px;
+    }
+    
+    .skill-list div{
+        padding: 2.5px 5px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .lang-list {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .projects {
+        width: 80%;
+        min-height: 100px;
+        padding: 30px;
+        gap: 20px;
+    }
+    
+    .projects:hover {
+        transform: scale(1.01);
+    }
+    
+    .project-header {
+        padding: 10px;
+        height: fit-content;
+        font-size: 35px;
+        font-weight: 500;
+    }
+    
+    .project-list {
+        margin-top: 25px;
+        gap: 25px;
+    }
+    
+    .project {
+        min-height: 80px;
+        padding: 30px 30px 50px 30px;
+    }
+    
+    .project:hover {
+        transform: scale(1.01);
+    }
+    
+    .project h1 {
+        margin-bottom: 40px;
+        font-size: 24px;
+    }
+    
+    .project p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    
+    .project a {
+        padding: 5px 10px;
+        font-size: 12.5px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 1300px) {
+    .container {
+        margin-top: 50px;
+        row-gap: 50px;
+        margin-bottom: 75px;
+    }
+    
+    .dark-mode {
+        padding: 5px 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    .dark-mode:hover {
+        transform: scale(1.05);
+    }
+    
+    .personal-info {
+        width: 80%;
+        min-height: 100px;
+        padding: 25px;
+        gap: 25px;
+    }
+    
+    .personal-info:hover {
+        transform: scale(1.01);
+    }
+    
+    .personal-info > div {
+        padding: 20px 30px;
+    }
+    
+    .personal-info > div:hover {
+        transform: scale(1.01);
+    }
+    
+    .about h1 {
+        font-weight: 500;
+        font-size: 32px;
+    }
+    
+    .about h2 {
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    
+    .about-detail {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    
+    .about p {
+        margin: 10px 0;
+        font-weight: 500;
+    }
+    
+    .contact h1 {
+        font-size: 26px;
+    }
+    
+    .contact span, .contact p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .contact span {
+        padding: 2.5px 5px;
+        font-weight: 500;
+    }
+    
+    .contact i {
+        font-size: 28px;
+        margin-right: 5px;
+    }
+    
+    .contact i:hover {
+        transform: scale(1.1);
+    }
+    
+    .contact-page {
+        margin-top: 50px;
+    }
+    
+    .contact-page h1 {
+        margin-bottom: 28px;
+    }
+    
+    .education h1, .skills h1 {
+        font-size: 25px;
+    }
+    
+    .university {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .degree {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .major {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .year {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .gpa-header {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .gpa {
+        font-weight: 700;
+        font-size: 16px;
+        padding: 5px 10px 5px 0;
+    }
+    
+    .education h2 {
+        font-size: 24px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    
+    .education p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .skills {
+        gap: 18px;
+    }
+    
+    .skills > div {
+        min-height: 50px;
+        padding: 10px 20px 20px 20px;
+    }
+
+    .skills h2 {
+        font-size: 18px;
+    }
+    
+    .skill-list {
+        gap: 10px;
+    }
+    
+    .skill-list div{
+        padding: 2.5px 5px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .lang-list {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    
+    .projects {
+        width: 80%;
+        min-height: 100px;
+        padding: 30px;
+        gap: 18px;
+    }
+    
+    .projects:hover {
+        transform: scale(1.01);
+    }
+    
+    .project-header {
+        padding: 10px;
+        height: fit-content;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    
+    .project-list {
+        margin-top: 25px;
+        gap: 25px;
+    }
+    
+    .project {
+        min-height: 50px;
+        padding: 30px 30px 50px 30px;
+    }
+    
+    .project:hover {
+        transform: scale(1.01);
+    }
+    
+    .project h1 {
+        margin-bottom: 40px;
+        font-size: 24px;
+        line-height: 1;
+    }
+    
+    .project p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    
+    .project a {
+        padding: 5px 10px;
+        font-size: 14px;
+        font-weight: 500;
+        display: block;
+        width: fit-content;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        margin-top: 35px;
+        row-gap: 35px;
+        margin-bottom: 50px;
+    }
+    
+    .dark-mode {
+        padding: 5px 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    .dark-mode:hover {
+        transform: scale(1.05);
+    }
+    
+    .personal-info {
+        width: 80%;
+        min-height: 100px;
+        padding: 25px;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    
+    .personal-info:hover {
+        transform: scale(1.01);
+    }
+    
+    .personal-info > div {
+        padding: 20px 30px;
+        min-width: 400px;
+    }
+    
+    .personal-info > div:hover {
+        transform: scale(1.01);
+    }
+    
+    .about h1 {
+        font-weight: 500;
+        font-size: 35px;
+    }
+    
+    .about h2 {
+        font-weight: 500;
+        font-size: 22px;
+        margin-top: 40px;
+    }
+    
+    .about-detail {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    
+    .about p {
+        margin: 10px 0;
+        font-weight: 500;
+    }
+    
+    .contact h1 {
+        font-size: 35px;
+    }
+    
+    .contact span, .contact p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .contact span {
+        padding: 2.5px 5px;
+        font-weight: 500;
+    }
+    
+    .contact i {
+        font-size: 35px;
+        margin-right: 5px;
+        margin-bottom: 28px;
+    }
+    
+    .contact i:hover {
+        transform: scale(1.1);
+    }
+    
+    .contact-page {
+        margin-top: 50px;
+    }
+    
+    .contact-page h1 {
+        margin-bottom: 35px;
+    }
+    
+    .education h1, .skills h1 {
+        font-size: 35px;
+    }
+    
+    .university {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    .degree {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    .major {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    .year {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .gpa-header {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    .gpa {
+        font-weight: 700;
+        font-size: 18px;
+        padding: 5px 10px 5px 0;
+    }
+    
+    .education h2 {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 35px;
+    }
+    
+    .education p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .skills {
+        gap: 18px;
+    }
+    
+    .skills > div {
+        min-height: 50px;
+        padding: 10px 20px 20px 20px;
+    }
+
+    .skills h2 {
+        font-size: 20px;
+    }
+    
+    .skill-list {
+        gap: 10px;
+    }
+    
+    .skill-list div{
+        padding: 2.5px 5px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .lang-list {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .projects {
+        width: 80%;
+        min-height: 100px;
+        padding: 25px;
+        gap: 18px;
+    }
+    
+    .projects:hover {
+        transform: scale(1.01);
+    }
+    
+    .project-header {
+        padding: 10px;
+        height: fit-content;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    
+    .project-list {
+        margin-top: 25px;
+        gap: 25px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .project {
+        min-height: 50px;
+        padding: 30px 30px 50px 30px;
+    }
+    
+    .project:hover {
+        transform: scale(1.01);
+    }
+    
+    .project h1 {
+        margin-bottom: 40px;
+        font-size: 25px;
+        line-height: 1;
+    }
+    
+    .project p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    
+    .project a {
+        padding: 5px 10px;
+        font-size: 16px;
+        font-weight: 500;
+        display: block;
+        width: fit-content;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 35px;
+        row-gap: 35px;
+        margin-bottom: 50px;
+    }
+    
+    .dark-mode {
+        padding: 5px 10px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 14px;
+    }
+    
+    .dark-mode:hover {
+        transform: scale(1.05);
+    }
+    
+    .personal-info {
+        width: 80%;
+        min-height: 100px;
+        padding: 25px;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    
+    .personal-info:hover {
+        transform: scale(1.01);
+    }
+    
+    .personal-info > div {
+        padding: 20px 30px;
+        min-width: 250px;
+    }
+    
+    .personal-info > div:hover {
+        transform: scale(1.01);
+    }
+    
+    .about h1 {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1;
+    }
+    
+    .about h2 {
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 1;
+    }
+    
+    .about-detail {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    
+    .about p {
+        margin: 10px 0;
+        font-weight: 500;
+    }
+    
+    .contact h1 {
+        font-size: 28px;
+    }
+    
+    .contact span, .contact p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .contact span {
+        padding: 2.5px 5px;
+        font-weight: 500;
+    }
+    
+    .contact i {
+        font-size: 35px;
+        margin-right: 5px;
+        margin-bottom: 28px;
+    }
+    
+    .contact i:hover {
+        transform: scale(1.1);
+    }
+    
+    .contact-page {
+        margin-top: 50px;
+    }
+    
+    .contact-page h1 {
+        margin-bottom: 35px;
+    }
+    
+    .education h1, .skills h1 {
+        font-size: 28px;
+        line-height: 1;
+    }
+    
+    .university {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 10.5px;
+    }
+    
+    .degree {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 10.5px;
+    }
+    
+    .major {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 10.5px;
+    }
+    
+    .year {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .gpa-header {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    .gpa {
+        font-weight: 700;
+        font-size: 14px;
+        padding: 5px 10px 5px 0;
+    }
+    
+    .education h2 {
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 35px;
+    }
+    
+    .education p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .skills {
+        gap: 18px;
+    }
+    
+    .skills > div {
+        min-height: 50px;
+        padding: 10px 20px 20px 20px;
+    }
+
+    .skills h2 {
+        font-size: 18px;
+    }
+    
+    .skill-list {
+        gap: 10px;
+    }
+    
+    .skill-list div{
+        padding: 2.5px 5px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .lang-list {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .projects {
+        width: 80%;
+        min-height: 100px;
+        padding: 25px;
+        gap: 18px;
+    }
+    
+    .projects:hover {
+        transform: scale(1.01);
+    }
+    
+    .project-header {
+        padding: 10px;
+        height: fit-content;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    
+    .project-list {
+        margin-top: 25px;
+        gap: 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .project {
+        min-height: 20px;
+        padding: 30px 30px 50px 30px;
+    }
+    
+    .project:hover {
+        transform: scale(1.01);
+    }
+    
+    .project h1 {
+        margin-bottom: 40px;
+        font-size: 22px;
+        line-height: 1;
+    }
+    
+    .project p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    
+    .project a {
+        padding: 5px 10px;
+        font-size: 14px;
+        font-weight: 500;
+        display: block;
+        width: fit-content;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 412px) {
+    .container {
+        margin-top: 30px;
+        row-gap: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .dark-mode {
+        padding: 5px 10px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 12px;
+    }
+    
+    .dark-mode:hover {
+        transform: scale(1.05);
+    }
+    
+    .personal-info {
+        width: 80%;
+        min-height: 100px;
+        padding: 15px;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    
+    .personal-info:hover {
+        transform: scale(1.01);
+    }
+    
+    .personal-info > div {
+        padding: 15px 20px;
+        min-width: 150px;
+    }
+    
+    .personal-info > div:hover {
+        transform: scale(1.01);
+    }
+    
+    .about h1 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1;
+    }
+    
+    .about h2 {
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 1;
+    }
+    
+    .about-detail {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    
+    .about p {
+        margin: 10px 0;
+        font-weight: 500;
+    }
+    
+    .contact h1 {
+        font-size: 24px;
+    }
+    
+    .contact span, .contact p {
+        font-size: 11.5px;
+        font-weight: 500;
+    }
+    
+    .contact span {
+        padding: 2.5px 5px;
+        font-weight: 500;
+    }
+    
+    .contact i {
+        font-size: 25px;
+        margin-right: 5px;
+        margin-bottom: 28px;
+    }
+    
+    .contact i:hover {
+        transform: scale(1.1);
+    }
+    
+    .contact-page {
+        margin-top: 50px;
+    }
+    
+    .contact-page h1 {
+        margin-bottom: 25px;
+    }
+    
+    .education h1, .skills h1 {
+        font-size: 24px;
+        line-height: 1;
+    }
+    
+    .university {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    
+    .degree {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 9.5px;
+    }
+    
+    .major {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 10.5px;
+    }
+    
+    .year {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .gpa-header {
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    
+    .gpa {
+        font-weight: 700;
+        font-size: 12px;
+        padding: 5px 10px 5px 0;
+    }
+    
+    .education h2 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .education p {
+        font-size: 10px;
+        font-weight: 500;
+    }
+    
+    .skills {
+        gap: 18px;
+    }
+    
+    .skills > div {
+        min-height: 50px;
+        padding: 10px 20px 20px 20px;
+    }
+
+    .skills h2 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .skill-list {
+        gap: 10px;
+    }
+    
+    .skill-list div{
+        padding: 2.5px 5px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .lang-list {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .projects {
+        width: 80%;
+        min-height: 100px;
+        padding: 15px;
+        gap: 15px;
+    }
+    
+    .projects:hover {
+        transform: scale(1.01);
+    }
+    
+    .project-header {
+        padding: 10px;
+        height: fit-content;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .project-list {
+        margin-top: 25px;
+        gap: 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .project {
+        min-height: 20px;
+        padding: 20px 20px 30px 20px;
+    }
+    
+    .project:hover {
+        transform: scale(1.01);
+    }
+    
+    .project h1 {
+        margin-bottom: 40px;
+        font-size: 18px;
+        line-height: 1;
+    }
+    
+    .project p {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    
+    .project a {
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: 500;
+        display: block;
+        width: fit-content;
+        margin-top: 5px;
+    }
+}
+
