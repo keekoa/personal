@@ -11,7 +11,7 @@ darkMode.addEventListener('click', (e) => {
         document.documentElement.style.setProperty('--main-border', '#003cff');
         document.documentElement.style.setProperty('--secondary-border', '#0034e0');
 
-        e.target.innerHTML = 'Dark Mode <i class="fa-solid fa-sun"></i>';
+        e.target.innerHTML = 'Dark Mode <i class="fa-solid fa-moon"></i>';
     }
     else {
         document.documentElement.style.setProperty('--main-background', '#202020f8');
