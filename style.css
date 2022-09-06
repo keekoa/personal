@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
-    --main-background: #ccccccf8;
-    --secondary-background: #ccccccfa;
-    --content: #cccccc;
+    --main-background: #eeeeeef8;
+    --secondary-background: #eeeeeef5;
+    --content: #eeeeeef1;
     --main-text: #0030ce;
     --secondary-text: #0028ad;
     --content-text: #00196d;
