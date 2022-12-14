@@ -5,23 +5,23 @@ darkMode.addEventListener('click', (e) => {
         document.documentElement.style.setProperty('--main-background', '#eeeeeef8');
         document.documentElement.style.setProperty('--secondary-background', '#eeeeeef5');
         document.documentElement.style.setProperty('--content', '#eeeeeef1');
-        document.documentElement.style.setProperty('--main-text', '#0030ce');
-        document.documentElement.style.setProperty('--secondary-text', '#0028ad');
-        document.documentElement.style.setProperty('--content-text', '#00196d');
-        document.documentElement.style.setProperty('--main-border', '#003cff');
-        document.documentElement.style.setProperty('--secondary-border', '#0034e0');
+        document.documentElement.style.setProperty('--main-text', '#212121');
+        document.documentElement.style.setProperty('--secondary-text', '#19be8d');
+        document.documentElement.style.setProperty('--content-text', '#393E46');
+        document.documentElement.style.setProperty('--main-border', '#212121');
+        document.documentElement.style.setProperty('--secondary-border', '#212121');
 
         e.target.innerHTML = 'Dark Mode <i class="fa-solid fa-moon"></i>';
     }
     else {
-        document.documentElement.style.setProperty('--main-background', '#202020f8');
-        document.documentElement.style.setProperty('--secondary-background', '#202020f8');
-        document.documentElement.style.setProperty('--content', '#202020f8');
-        document.documentElement.style.setProperty('--main-text', '#07cdff');
-        document.documentElement.style.setProperty('--secondary-text', '#31c5ff');
-        document.documentElement.style.setProperty('--content-text', '#cccccc');
-        document.documentElement.style.setProperty('--main-border', '#20deff');
-        document.documentElement.style.setProperty('--secondary-border', '#05c1da');
+        document.documentElement.style.setProperty('--main-background', '#212121');
+        document.documentElement.style.setProperty('--secondary-background', '#212121');
+        document.documentElement.style.setProperty('--content', '#212121');
+        document.documentElement.style.setProperty('--main-text', '#ebebeb');
+        document.documentElement.style.setProperty('--secondary-text', '#19be8d');
+        document.documentElement.style.setProperty('--content-text', '#d3d3d3');
+        document.documentElement.style.setProperty('--main-border', '#19be8d');
+        document.documentElement.style.setProperty('--secondary-border', '#19be8d');
 
         e.target.innerHTML = 'Light Mode <i class="fa-solid fa-sun"></i>';
     }
